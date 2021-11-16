@@ -1,0 +1,4 @@
+src/.vs/
+*.user
+src/ArcadeFrontend2/bin/
+src/ArcadeFrontend2/obj/

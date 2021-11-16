@@ -1,0 +1,13 @@
+{
+  "Systems": [
+    {
+      "Path": "mame/mame64.exe",
+      "Games": [
+        {
+          "Name": "1941",
+          "RomName": "1941.zip"
+        }
+      ]
+    }
+  ]
+}

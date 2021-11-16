@@ -1,0 +1,15 @@
+﻿@page "/fetchdata"
+
+@using ArcadeFrontend2.Data
+@inject ConfigurationService ConfigurationService
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+@code {
+	protected override async Task OnInitializedAsync()
+	{
+		ConfigurationService.WriteSampleConfiguration();
+	}
+}
